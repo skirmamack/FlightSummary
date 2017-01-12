@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSummary", "FlightSummary\FlightSummary.csproj", "{4399CB4C-9B8F-4300-B434-D166787F6880}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{62957B68-91E5-407B-9046-3D1FAC2D9038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "IntegrationTests\Tests.csproj", "{1E9647FF-8948-4540-B757-5999143A6BA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4399CB4C-9B8F-4300-B434-D166787F6880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4399CB4C-9B8F-4300-B434-D166787F6880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4399CB4C-9B8F-4300-B434-D166787F6880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4399CB4C-9B8F-4300-B434-D166787F6880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9647FF-8948-4540-B757-5999143A6BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9647FF-8948-4540-B757-5999143A6BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9647FF-8948-4540-B757-5999143A6BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9647FF-8948-4540-B757-5999143A6BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E9647FF-8948-4540-B757-5999143A6BA7} = {62957B68-91E5-407B-9046-3D1FAC2D9038}
+	EndGlobalSection
+EndGlobal

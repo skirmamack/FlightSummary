@@ -1,0 +1,13 @@
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\bin\Debug\IntegrationTests.dll
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\bin\Debug\IntegrationTests.pdb
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\bin\Debug\FlightSummary.exe
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\bin\Debug\Moq.dll
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\bin\Debug\nunit.framework.dll
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\bin\Debug\FlightSummary.pdb
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\bin\Debug\Moq.xml
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\bin\Debug\nunit.framework.xml
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\obj\Debug\IntegrationTests.csprojResolveAssemblyReference.cache
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\obj\Debug\IntegrationTests.dll
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\obj\Debug\IntegrationTests.pdb
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\bin\Debug\DataFiles\InputFile1.txt
+D:\Programming\Jobs\Wonga\FlightSummary\IntegrationTests\bin\Debug\DataFiles\InputFile2.txt

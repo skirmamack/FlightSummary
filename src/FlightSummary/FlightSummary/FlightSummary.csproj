@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4399CB4C-9B8F-4300-B434-D166787F6880}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FlightSummary</RootNamespace>
+    <AssemblyName>FlightSummary</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataTools\Input\FlightDataAnalyser.cs" />
+    <Compile Include="DataTools\Input\Commands\AddAircraftCommand.cs" />
+    <Compile Include="DataTools\Input\Commands\AddAirlineCommand.cs" />
+    <Compile Include="DataTools\Input\Commands\AddLoyaltyCommand.cs" />
+    <Compile Include="DataTools\Input\Commands\AddGeneralCommand.cs" />
+    <Compile Include="DataTools\Input\Commands\AddRouteCommand.cs" />
+    <Compile Include="DataTools\Input\Commands\FlightDataCommand.cs" />
+    <Compile Include="DataTools\Input\FlightDataLoader.cs" />
+    <Compile Include="DataTools\Input\IFlightDataAnalyser.cs" />
+    <Compile Include="DataTools\Input\IFlightDataLoader.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DataTypes\Flight\Aircraft.cs" />
+    <Compile Include="DataTypes\Passengers\AirlineEmployee.cs" />
+    <Compile Include="DataTypes\Passengers\GeneralPassenger.cs" />
+    <Compile Include="DataTypes\Passengers\LoyaltyMember.cs" />
+    <Compile Include="DataTypes\Passengers\Passenger.cs" />
+    <Compile Include="DataTypes\Flight\FlightData.cs" />
+    <Compile Include="DataTypes\Flight\Route.cs" />
+    <Compile Include="DataTools\Input\DataFileReader.cs" />
+    <Compile Include="DataTools\FlightFileAnalyser.cs" />
+    <Compile Include="DataTypes\Flight\FlightAnalysis.cs" />
+    <Compile Include="DataTools\Input\IDataFileReader.cs" />
+    <Compile Include="DataTools\Output\IResultFormatter.cs" />
+    <Compile Include="DataTools\Output\IResultWriter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataTools\Output\ResultFormatter.cs" />
+    <Compile Include="DataTools\Output\ResultWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataFiles\InputFile2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\InputFile1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

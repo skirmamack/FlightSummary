@@ -1,0 +1,17 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/Housekeeping/Bookmarks/NumberedBookmarks/=Bookmark2/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/Bookmarks/NumberedBookmarks/=Bookmark2/Coords/@EntryValue">(Doc Ln 49 Col 22)</s:String>
+	<s:String x:Key="/Default/Housekeeping/Bookmarks/NumberedBookmarks/=Bookmark2/FileId/@EntryValue">1E9647FF-8948-4540-B757-5999143A6BA7/f:FlightAnalyserTests.cs</s:String>
+	<s:String x:Key="/Default/Housekeeping/Bookmarks/NumberedBookmarks/=Bookmark2/Owner/@EntryValue">NumberedBookmarkManager</s:String>
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=4D21986B836149078917E5B2212173E9/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=4D21986B836149078917E5B2212173E9/GroupingIndex/@EntryValue">4</s:Int64>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=4D21986B836149078917E5B2212173E9/Name/@EntryValue">should_do_analysis_correctly("add route London Dublin 100 150 75\r\nadd aircraft Gulfstream-G550 8\r\nadd general Mark 35\r\nadd general Tom 15\r\nadd general James 72\r\nadd airline Trevor 54\r\nadd loyalty Alan 65 50 FALSE FALSE\r\nadd loyalty Susie 21 40 TRUE FALSE\r\nadd loyalty Joan 56 100 FALSE TRUE\r\nadd general Jack 50","8 4 1 3 9 40 800 1200 1010 TRUE")</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=4D21986B836149078917E5B2212173E9/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;e Id="Tests.Integration.FlightAnalyserTests" Project="1E9647FF-8948-4540-B757-5999143A6BA7" Provider="nUnit" /&gt;&lt;e Id="Tests.Integration.FlightAnalyserTests.should_do_analysis_correctly(&amp;quot;add route London Dublin 100 150 75\r\nadd aircraft Gulfstream-G550 8\r\nadd general Mark 35\r\nadd general Tom 15\r\nadd general James 72\r\nadd airline Trevor 54\r\nadd loyalty Alan 65 50 FALSE FALSE\r\nadd loyalty Susie 21 40 TRUE FALSE\r\nadd loyalty Joan 56 100 FALSE TRUE\r\nadd general Jack 50&amp;quot;,&amp;quot;8 4 1 3 9 40 800 1200 1010 TRUE&amp;quot;)" Project="1E9647FF-8948-4540-B757-5999143A6BA7" Provider="nUnit" /&gt;&lt;e Id="Tests.Integration.FlightAnalyserTests.should_do_analysis_correctly" Project="1E9647FF-8948-4540-B757-5999143A6BA7" Provider="nUnit" /&gt;&lt;e Id="Tests.Integration.FlightAnalyserTests.should_do_analysis_correctly(&amp;quot;add route London Dublin 100 150 75\r\nadd aircraft Gulfstream-G550 12\r\nadd general Mark 35\r\nadd general Tom 15\r\nadd general James 72\r\nadd general Jack 50\r\nadd airline Jane 75\r\nadd general Steve 20&amp;quot;,&amp;quot;6 5 1 0 6 0 600 900 750 FALSE&amp;quot;)" Project="1E9647FF-8948-4540-B757-5999143A6BA7" Provider="nUnit" /&gt;&lt;e Id="Tests.Unit.FlightDataCommandsTests.should_return_multiple_route_entries_error" Project="1E9647FF-8948-4540-B757-5999143A6BA7" Provider="nUnit" /&gt;&lt;e Id="Tests.Unit.FlightDataCommandsTests" Project="1E9647FF-8948-4540-B757-5999143A6BA7" Provider="nUnit" /&gt;&lt;e Id="Tests.Unit.FlightDataCommandsTests.should_return_multiple_aircraft_entries_error" Project="1E9647FF-8948-4540-B757-5999143A6BA7" Provider="nUnit" /&gt;&lt;/Session&gt;</s:String></wpf:ResourceDictionary>

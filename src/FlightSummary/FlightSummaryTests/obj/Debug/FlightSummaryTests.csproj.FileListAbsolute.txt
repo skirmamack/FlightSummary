@@ -1,0 +1,9 @@
+D:\Programming\Jobs\Wonga\FlightSummary\FlightSummaryTests\bin\Debug\FlightSummaryTests.dll
+D:\Programming\Jobs\Wonga\FlightSummary\FlightSummaryTests\bin\Debug\FlightSummaryTests.pdb
+D:\Programming\Jobs\Wonga\FlightSummary\FlightSummaryTests\obj\Debug\FlightSummaryTests.dll
+D:\Programming\Jobs\Wonga\FlightSummary\FlightSummaryTests\obj\Debug\FlightSummaryTests.pdb
+D:\Programming\Jobs\Wonga\FlightSummary\FlightSummaryTests\bin\Debug\Moq.dll
+D:\Programming\Jobs\Wonga\FlightSummary\FlightSummaryTests\bin\Debug\nunit.framework.dll
+D:\Programming\Jobs\Wonga\FlightSummary\FlightSummaryTests\bin\Debug\Moq.xml
+D:\Programming\Jobs\Wonga\FlightSummary\FlightSummaryTests\bin\Debug\nunit.framework.xml
+D:\Programming\Jobs\Wonga\FlightSummary\FlightSummaryTests\obj\Debug\FlightSummaryTests.csprojResolveAssemblyReference.cache
